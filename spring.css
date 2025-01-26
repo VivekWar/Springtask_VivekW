@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px black;
+  }
+
+  nav .links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #403f3f;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+  }
+
+  .card {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .card h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .card p {
+    margin: 0.5rem 0;
+    color: #565454;
+  }
+
+  .card .highlight {
+    font-weight: bold;
+    color: greenyellow;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .search input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    flex: 1;
+  }
+
+  .search button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
